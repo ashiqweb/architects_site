@@ -1,0 +1,244 @@
+/* Common Css */
+:root {
+    --yellow: #FF900E;
+    --black-light: #9c9c9c;
+    --black: #131313;
+    --body: #FFF4E8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FF9229;
+}
+.btn2-primary {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    border: 0;
+    padding: 15px 14px;
+    height: 104px;
+    border-radius: 5px;
+    background: #FF9229;
+}
+
+/* header style start */
+main {
+    background-color: #FFF4E8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+nav>ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+/* header style end  */
+/* banner-image-title start */
+
+.banner-image-title img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 64px;
+    padding: 0 87px;
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+.title p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.explore {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.banner-image {
+    padding-bottom: 30px;
+}
+
+/* banner-image-title end */
+/* quick-list start */
+.quick-list {
+    display: flex;
+    padding-top: 45px;
+}
+
+.q-image-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.q-title-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 47px;
+    margin-right: -153px;
+}
+
+.featur {
+    color: #FF9229;
+}
+
+.quick {
+    color: #727272;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+/* love&enjoy start */
+.love-enjoy-part {
+    display: flex;
+    margin-top: 94px;
+}
+
+.features-title-part {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.features-title-part h2 {
+    border-left: 5px inset #FF900E;
+    padding-left: 15px;
+    padding-right: 145px;
+    margin-bottom: 24px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.features-image-part {
+    width: 50%;
+    position: relative;
+}
+.love-enjoy-part > .features-title-part > p{
+    font-family: 'Open Sans', sans-serif;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5;
+}
+.features-image-part img {
+    width: 100%;
+}
+h4 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-title p{
+    font-family: 'Open Sans', sans-serif;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    line-height: 1.5;
+}
+.ten{
+    position: absolute;
+    bottom: 39px;
+    right: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* love&enjoy end */
+/* some facts start */
+.some-Facts{
+    margin-top: 166px;
+    margin-bottom: 40px;
+}
+.some-Facts p{
+    padding-right: 547px;
+    padding-top: 24px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+
+}
+.icon{
+    border: 1px solid #FF900E;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px ;
+}
+
+/* our sponspors start */
+.our-sponspord{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.amazon-part{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 131px;
+    min-width: 1065px;
+}
+.amazon-photo img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.our-title{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+/* wur sponspors end */
+footer{
+    background-color: #FFf4e8;
+    height: 70px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+footer p{
+ padding: 30px;
+ margin: 0 auto;
+
+}
+
