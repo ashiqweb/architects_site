@@ -242,4 +242,73 @@ footer p{
  margin: 0 auto;
 
 }
+@media screen and (max-width: 776px) {
+    nav > ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+ 
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.q-image-part {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.q-image-part img{
+    width: 100%;
+}
+.title h2 {
+    font-size: 64px;
+    padding: 0; 
+    margin-top: 0;
+    font-weight: 700;
+}
+.quick-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+}
+.love-enjoy-part {
+    display: flex;
+    margin-top: 94px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cards {
+    display: flex;
+    gap: 0;
+    margin-top: 30px;
+    margin-right: 0;
+    flex-direction: column;
+}
+.features-title-part {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.features-image-part {
+    width: 100%;
+    position: relative;
+}
+.some-Facts p {
+    padding-right: 0;
+    padding-top: 0;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    flex-direction: column;
+}
+.amazon-part {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    margin-bottom: 0;
+}
+}
 
