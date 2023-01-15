@@ -217,6 +217,7 @@ h4 {
     flex-direction: row-reverse;
     gap: 131px;
     min-width: 1065px;
+    margin-bottom: 50px;
 }
 .amazon-photo img{
     width: 100%;
